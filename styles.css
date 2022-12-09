@@ -1,0 +1,281 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+);
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+}
+
+
+.purple{
+    color: #6415ff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 72px;
+}
+/*
+
+NAV
+
+*/
+
+nav{  
+    height: 100px;
+    display: flex;
+}
+
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo__wrapper{
+    display: flex;
+}
+
+.logo__img{
+    width: 40px;
+    margin: 14px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav__link{
+    padding: 0px 24px;
+    color: #243e63;
+    font-weight: bold;
+    font-size: 14px ;
+}
+.nav__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__titel{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.nav__btn{
+    border-radius: 50px;
+    background-color:#6415ff ;
+    color: #f4f4f4;
+    padding: 10px 30px;
+    border: solid;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*
+
+Header
+
+*/
+
+.header__wrapper{
+    display: flex;
+    margin-top: 90px;
+}
+
+.header__text{
+    text-align: left;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.text{
+    font-size: 48px;
+    margin-right: 50px;
+}
+
+.text__para{
+    font-size: 18px;
+    margin: 32px 0px;
+    color: rgb(63, 63, 63);
+}
+
+.registration{
+    display: flex;
+    position: relative;
+}
+
+.text__input{
+    padding: 21px 190px 21px 30px;
+    border-radius: 9999px;
+    margin-bottom: 32px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    font-weight: bold;
+    font-size: 16px ;
+border: solid rgba(128, 128, 128, 0.21);
+}
+
+::placeholder{
+    color: rgba(128, 128, 128, 0.21);
+}
+
+.registration__button{
+    border-radius: 50px;
+    padding: 16px 30px;
+    margin: 8px 8px 8px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #6415ff;
+    color: #f4f4f4;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    right: 80px;
+    top: 0%;
+}
+
+.img__wrapper{
+width: 100%;
+max-width: 900px;
+}
+
+.header__img{
+    width: 100%;
+}
+
+.header__img__wrapper{
+    width: 60%;
+}
+
+
+.partners__wrapper{
+    width: 100%;
+    max-width:400px;
+}
+
+.partners__img{
+    width: 100%;
+    filter: opacity(0.5);
+
+}
+
+.partners{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.801);
+    margin: 24px 0px 12px;
+    filter: opacity(0.5);
+}
+
+
+
+/*
+
+Features
+
+*/
+
+.features__para{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 18px;
+}
+
+.features__header{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 18px;
+}
+
+
+.features__text{
+    font-size: 18px;
+    color: #3F3F3F;
+    margin: 18px;
+}
+
+.features__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    width:100%;
+}
+
+.secure{
+    display: flex;
+    width: calc(100%/3);
+margin: 24px 0px;
+    
+}
+
+.secure__img__wrapper{
+    width: 150px;
+}
+
+.secure__img{
+    display: flex;
+    width: 100%;
+    max-width: 66px;
+    border: solid rgba(128, 128, 128, 0.201);
+    border-radius: 9999px;
+    padding: 16px;
+    margin: 8px;
+}
+
+.secure__text__wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 16px;
+}
+
+.secure__text{
+    margin: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.secure__para{
+    color: rgba(128, 128, 128, 0.801);
+font-weight: bold;
+}
+
+
+
