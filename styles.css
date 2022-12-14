@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: #f4f4f4;
+}
+
 .row{
     width: 100%;
     max-width: 1200px;
@@ -358,3 +362,5 @@ z-index: 1;
     width: 100%;
     z-index: 1;
 }
+
+
