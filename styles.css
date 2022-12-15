@@ -3,9 +3,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 );
 *{
-    padding: 0px;
+    padding: 0rem;
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
+    margin: 0rem;
     box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ html{
 
 .row{
     width: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -37,7 +37,14 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 72px;
+    padding: 4rem;
+}
+
+.header__para{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.1rem;
 }
 /*
 
@@ -46,7 +53,7 @@ NAV
 */
 
 nav{  
-    height: 100px;
+    height: 6.3rem;
     display: flex;
 }
 
@@ -55,7 +62,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -64,8 +71,8 @@ nav{
 }
 
 .logo__img{
-    width: 40px;
-    margin: 14px;
+    width: 2.2rem;
+    margin: 0.9rem;
 }
 
 ul{
@@ -77,14 +84,14 @@ li{
 }
 
 .nav__link{
-    padding: 0px 24px;
+    padding: 0rem 1.5rem;
     color: #3F3F3F;
     font-weight: bold;
-    font-size: 14px ;
+    font-size: 0.9rem ;
 }
 
 .nav__link:hover{
-text-decoration: underline;
+    text-decoration:underline;
 color: #6415ff;
 transition: all 300ms ease;
 }
@@ -98,7 +105,7 @@ transition: all 300ms ease;
 
 .logo__titel{
     color: black;
-    font-size: 26px;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
@@ -109,12 +116,12 @@ transition: all 300ms ease;
 }
 
 .nav__btn{
-    border-radius: 50px;
+    border-radius: 3.1rem;
     background-color:#6415ff ;
     color: #f4f4f4;
-    padding: 10px 30px;
+    padding: 0.7rem 1.9rem;
     border: solid;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -131,7 +138,7 @@ Header
 
 .header__wrapper{
     display: flex;
-    margin-top: 90px;
+    margin-top: 5.8rem;
 }
 
 .header__text{
@@ -142,13 +149,13 @@ Header
 }
 
 .text{
-    font-size: 48px;
-    margin-right: 50px;
+    font-size: 3rem;
+    margin-right: 3.1rem;
 }
 
 .text__para{
-    font-size: 18px;
-    margin: 32px 0px;
+    font-size: 1.1rem;
+    margin:2rem 0rem;
     color: rgb(63, 63, 63);
 }
 
@@ -158,15 +165,16 @@ Header
 }
 
 .text__input{
-    padding: 21px 190px 21px 30px;
-    border-radius: 9999px;
-    margin-bottom: 32px;
+    padding: 1.3rem 11.9rem 1.3rem 1.9rem;
+    border-radius: 9999rem;
+    margin-bottom: 2rem;
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     font-weight: bold;
     font-size: 16px ;
 border: solid rgba(128, 128, 128, 0.21);
+background-color: #f4f4f4;
 }
 
 ::placeholder{
@@ -174,17 +182,17 @@ border: solid rgba(128, 128, 128, 0.21);
 }
 
 .registration__button{
-    border-radius: 50px;
-    padding: 16px 30px;
-    margin: 8px 8px 8px 0px;
+    border-radius: 3.1rem;
+    padding: 1rem 1.9rem;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #6415ff;
     color: #f4f4f4;
     cursor: pointer;
     position: absolute;
     border: none;
-    right: 80px;
+    right: 5rem;
     top: 0%;
 }
 
@@ -210,7 +218,7 @@ max-width: 900px;
 
 .partners__wrapper{
     width: 100%;
-    max-width:400px;
+    max-width: 25rem;;
 }
 
 .partners__img{
@@ -222,7 +230,7 @@ max-width: 900px;
 .partners{
     font-weight: bold;
     color: rgba(128, 128, 128, 0.801);
-    margin: 24px 0px 12px;
+    margin: 1.8rem 0px 0.9rem;
     filter: opacity(0.5);
 }
 
@@ -234,24 +242,18 @@ Features
 
 */
 
-.features__para{
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 18px;
-}
 
 .features__header{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
-    margin: 18px;
+    margin: 1.2rem;
 }
 
 
 .features__text{
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #3F3F3F;
-    margin: 18px;
+    margin: 1.2rem;
 }
 
 .features__wrapper{
@@ -263,7 +265,7 @@ Features
 .secure{
     display: flex;
     width: calc(100%/3);
-margin: 24px 0px;
+margin: 1.8rem 0rem;
     
 }
 
@@ -274,23 +276,23 @@ margin: 24px 0px;
 .secure__img{
     display: flex;
     width: 100%;
-    max-width: 66px;
+    max-width: 4.1rem;
     border: solid rgba(128, 128, 128, 0.201);
     border-radius: 9999px;
-    padding: 16px;
-    margin: 8px;
+    padding: 1.1rem;
+    margin: 0.6rem;
 }
 
 .secure__text__wrapper{
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 16px;
+    margin-left: 1.1rem;
 }
 
 .secure__text{
-    margin: 16px;
-    font-size: 24px;
+    margin: 1.1rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -311,38 +313,32 @@ quality Work
     align-items: center;
 }
 
-.quality__work__para{
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 18px;
-}
 
 .quality__work__header{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
-    margin: 18px;
+    margin: 1.1rem;
 }
 .quality__work{
     width: calc(100%/2);
-    margin: 14px;
+    margin: 1rem;
     text-align: left;
 }
 
 .quality__work__text{
     color: rgba(128, 128, 128, 0.801);
 font-weight: bold;
-margin: 18px;
+margin: 1.1rem;
 }
 
 .quality__work__btn{
     border: none;
     border-radius: 9999px;
     background-color: #6415ff;
-    padding: 14px 26px;
+    padding: 1rem 1.8rem;
     color: #f4f4f4;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -355,12 +351,64 @@ margin: 18px;
 
 .quality__work__img__wrapper{
 width: 700px;
-z-index: 1;
 }
 
 .quality__work__img{
     width: 100%;
-    z-index: 1;
+    
 }
 
+/*para
 
+
+Steps
+
+
+*/
+
+.steps__wrapper{
+    display: flex;
+    
+}
+.steps__text{
+    width: 50%;
+    text-align: center;
+}
+
+.text__steps__undercategory{
+    display: flex;
+    margin: 2rem;
+    text-align: left;
+}
+
+.number{
+    font-size: 2.4rem;
+    margin-right: 1rem;
+    color: #808080CC;
+}
+
+.register{
+color: #3F3F3F;
+margin-bottom: 0.6rem;
+}
+
+.text__steps__para{
+    color: #808080CC;
+    font-size: ;
+}
+
+.steps__img__wrapper{
+    width: 100%;
+}
+
+.steps__img{
+    width: 100%;
+}
+
+.steps__img__div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
