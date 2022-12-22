@@ -44,7 +44,7 @@ p{
     text-align: left;
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 1.1rem;
+    margin-bottom:1rem ;
 }
 /*
 
@@ -154,9 +154,10 @@ Header
 }
 
 .text__para{
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin:2rem 0rem;
-    color: rgb(63, 63, 63);
+    color: #808080CC;
+    font-weight: bold;
 }
 
 .registration{
@@ -250,12 +251,6 @@ Features
 }
 
 
-.features__text{
-    font-size: 1.2rem;
-    color: #3F3F3F;
-    margin: 1.2rem;
-}
-
 .features__wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -317,18 +312,12 @@ quality Work
 .quality__work__header{
     font-size: 3rem;
     font-weight: bold;
-    margin: 1.1rem;
+    margin: 1rem 1rem 1rem 0rem;
 }
 .quality__work{
     width: calc(100%/2);
     margin: 1rem;
     text-align: left;
-}
-
-.quality__work__text{
-    color: rgba(128, 128, 128, 0.801);
-font-weight: bold;
-margin: 1.1rem;
 }
 
 .quality__work__btn{
@@ -394,7 +383,7 @@ margin-bottom: 0.6rem;
 
 .text__steps__para{
     color: #808080CC;
-    font-size: ;
+    font-weight: bold;
 }
 
 .steps__img__wrapper{
@@ -411,4 +400,73 @@ margin-bottom: 0.6rem;
     align-items: center;
     justify-content: center;
     
+}
+
+
+/*
+
+Values
+
+*/
+.values__wrapper{
+    display: flex;
+}
+
+.values__text{
+    width: 50%;
+    text-align: left;
+}
+
+.two__text__divided{
+    display: flex;
+}
+
+.dollarsign,
+.briefcase{
+    font-size: 1.4rem;
+    background-color:rgb(154 230 180) ;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgb(154 230 180);
+    border-radius: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.affordable__header,
+.professionalism__header{
+    display: flex;
+    align-items: center;
+}
+
+.affordable__para,
+.professionalism__para{
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.affordable__text,
+.professionalism__text{
+    color: #808080CC;
+    font-weight: bold;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.values__btn{
+    background-color:#6415ff ;
+    color: white;
+    border-radius: 9999rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: #6415ff;
+    margin-top: 1rem;
+}
+
+.values__img{
+    width: 100%;
+}
+.values__img__wrapper{
+   width: 50%;
 }
