@@ -9,6 +9,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  background-color: #f4f4f4;
+}
 
 .row {
   width: 100%;
@@ -154,7 +157,7 @@ Header
 }
 
 .text__para {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 2rem 0rem;
   color: #808080cc;
   font-weight: bold;
@@ -305,7 +308,7 @@ quality Work
 }
 .quality__work {
   width: calc(100% / 2);
-  margin: 1rem;
+  margin: 2rem;
   text-align: left;
 }
 
@@ -347,6 +350,7 @@ Steps
 .steps__text {
   width: 50%;
   text-align: center;
+  margin: 2rem;
 }
 
 .text__steps__undercategory {
@@ -398,6 +402,7 @@ Values
 .values__text {
   width: 50%;
   text-align: left;
+  margin: 2rem;
 }
 
 .two__text__divided {
@@ -635,4 +640,97 @@ Pricing
   transform: translate(0.1rem, -0.1rem);
   transition: all 500ms ease;
   box-shadow: -0.4rem 0.4rem 0.5rem rgb(0, 0, 0, 0.3);
+}
+
+/*
+
+Testimonials
+
+*/
+
+.testimonials__wrapper {
+  display: flex;
+}
+.text__wrapper {
+  width: 50%;
+  text-align: left;
+  margin: 2rem;
+}
+
+.img__wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials__img {
+  width: 100%;
+}
+.rating {
+  color: #fabf2a;
+  margin: 1.5rem 0rem;
+}
+.feedback__header {
+  margin: 1.5rem 0rem 0.7rem 0rem;
+  color: #243e63;
+}
+
+.feedback__text__para {
+  margin: 1rem 0rem 2.5rem 0rem;
+  color: #4a5568;
+  font-weight: bold;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.datas__wrapper {
+  display: flex;
+}
+
+.datas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 1.2rem;
+}
+
+.person__img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999rem;
+}
+.name{
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #243e63;
+}
+.titel{
+  color: #808080cc;
+  font-weight: bold;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow{
+  font-size: 1.04rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #e6e6e6;
+  color: #6415ff;
+border-radius: 9999rem;
+border: none;
+cursor: pointer;
+}
+.divider{
+  border: 1px dotted #e6e6e6;
+  width: 1px;
+  height: 40%;
 }
