@@ -560,6 +560,7 @@ Pricing
   color: #6415ff;
   font-weight: bold;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .pricing__btn__three {
@@ -625,18 +626,18 @@ Pricing
 
 .pricing__btn__one:hover {
   transform: translate(0.1rem, -0.1rem);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
   box-shadow: -0.4rem 0.4rem 0.5rem rgb(0, 0, 0, 0.3);
 }
 
 .pricing__btn__two:hover {
   transform: translate(0.1rem, -0.1rem);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
   box-shadow: -0.4rem 0.4rem 0.5rem rgb(0, 0, 0, 0.3);
 }
 .pricing__btn__three:hover {
   transform: translate(0.1rem, -0.1rem);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
   box-shadow: -0.4rem 0.4rem 0.5rem rgb(0, 0, 0, 0.3);
 }
 
@@ -733,6 +734,11 @@ cursor: pointer;
   height: 40%;
 }
 
+.arrow:hover{
+  background-color: #E2E8F0;
+  transition: all 300ms ease;
+}
+
 
 /*
 
@@ -763,6 +769,11 @@ FAQS
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+}
+
+.dropdown:hover{
+  background-color:#E2E8F0 ;
 }
 
 .dropdown__text{
