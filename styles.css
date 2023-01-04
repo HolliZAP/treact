@@ -772,8 +772,9 @@ FAQS
   cursor: pointer;
 }
 
+.dropdown:hover .burger,
 .dropdown:hover{
-  background-color:#E2E8F0 ;
+  background-color:#E2E8F0;
 }
 
 .dropdown__text{
@@ -787,6 +788,7 @@ FAQS
   border: none;
   font-size: 1.1rem;
   background-color: #EDF2F7;
+  cursor: pointer;
 }
 
 
