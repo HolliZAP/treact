@@ -872,3 +872,14 @@ Registration
   color: #6415ff;
   transition: all 500ms ease;
 }
+
+/*
+
+footer
+
+*/
+
+.footer__wrapper{
+  background-color: #6415ff;
+  height: 30rem;
+}
