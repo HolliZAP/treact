@@ -879,7 +879,41 @@ footer
 
 */
 
-.footer__wrapper{
+.footer__background{
   background-color: #6415ff;
   height: 30rem;
+}
+
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 8rem;
+}
+
+
+.footer__header{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #EDF2F7;
+  margin: 5rem 0rem 2rem 0rem;
+}
+
+
+.link{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #EDF2F7;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.link:hover{
+  text-decoration: underline 2px
+}
+
+.footer__divider{
+  height: 2px;
+  margin: 2rem 8rem;
+  background-color: rgb(116 44 255);
 }
