@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -55,6 +60,10 @@ p {
 NAV
 
 */
+
+#landing{
+  animation: slide-in-right 800ms;
+}
 
 nav {
   height: 6.3rem;
@@ -244,6 +253,10 @@ Features
 
 */
 
+#features{
+  animation: slide-in-left 800ms ;
+}
+
 .features__header {
   font-size: 3rem;
   font-weight: bold;
@@ -299,6 +312,10 @@ Features
 quality Work
 
 */
+
+#quality__work{
+  animation: slide-in-right 800ms;
+}
 .quality__work__wrapper {
   display: flex;
   justify-content: center;
@@ -340,13 +357,17 @@ quality Work
   width: 100%;
 }
 
-/*para
+/*
 
 
 Steps
 
 
 */
+
+#steps{
+  animation: slide-in-left 800ms;
+}
 
 .steps__wrapper {
   display: flex;
@@ -399,6 +420,11 @@ Steps
 Values
 
 */
+
+#values{
+  animation: slide-in-right 800ms;
+}
+
 .values__wrapper {
   display: flex;
 }
@@ -487,9 +513,14 @@ Pricing
 
 */
 
+#pricing{
+  animation: slide-in-left 800ms;
+}
+
 .cards__wrapper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -653,6 +684,10 @@ Testimonials
 
 */
 
+#testimonials{
+  animation: slide-in-right 800ms;
+}
+
 .testimonials__wrapper {
   display: flex;
 }
@@ -757,6 +792,7 @@ FAQS
   align-items: center;
   justify-content: center;
   flex-direction: column;
+animation: slide-in-left 800ms;
 }
 
 .faqs__dropdown{
@@ -806,6 +842,7 @@ Registration
 
 #registration{
   position: relative;
+  animation: slide-in-right 800ms;
 }
 
 .registration__box{
@@ -885,6 +922,10 @@ footer
 
 */
 
+#footer{
+  animation: footer-slide-in 800ms;
+}
+
 .footer__background{
   background-color: #6415ff;
   height: 30rem;
@@ -897,6 +938,7 @@ footer
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
@@ -907,6 +949,9 @@ footer
   margin: 5rem 0rem 1.5rem 0rem;
 }
 
+.footer__links{
+  width: calc(100%/5);
+}
 
 .link{
   display: flex;
@@ -994,3 +1039,51 @@ footer
   background-color: rgb(203 213 224);
   transition: all 300ms ease;
 }
+
+/*
+
+keyframes
+
+*/
+
+@keyframes slide-in-right{
+
+0%{
+  opacity: 0;
+  transform: translateX(100px);
+}
+
+
+100%{
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+}
+
+@keyframes slide-in-left{
+
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  
+  
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  
+  }
+
+  @keyframes footer-slide-in{
+    0%{
+      opacity: 0;
+      transform: translateX(-500px);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
