@@ -163,6 +163,11 @@ Header
   font-size: 3rem;
 }
 
+.text__left{
+  font-size: 3rem;
+  text-align: left;
+}
+
 .text__para {
   font-size: 1.1rem;
   margin: 2rem 0rem;
@@ -338,12 +343,6 @@ quality Work
   justify-content: center;
   align-items: center;
 }
-
-.quality__work__header {
-  font-size: 3rem;
-  font-weight: bold;
-  margin: 1rem 1rem 1rem 0rem;
-}
 .quality__work {
   width: calc(100% / 2);
   margin: 2rem;
@@ -368,6 +367,7 @@ quality Work
 
 .quality__work__img__wrapper {
   width: 700px;
+  width: 50%;
 }
 
 .quality__work__img {
@@ -543,7 +543,8 @@ Pricing
 .card {
   border: rgb(226, 232, 240) solid 2px;
   border-top: none;
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;
   border-radius: 0.5rem;
   position: relative;
 }
@@ -837,9 +838,10 @@ animation: slide-in-left 800ms;
 }
 
 .dropdown__text{
-  margin: 2.5rem;
+  margin-left: 2.5rem;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: left;
 }
 
 .burger{
@@ -848,6 +850,7 @@ animation: slide-in-left 800ms;
   font-size: 1.1rem;
   background-color: #EDF2F7;
   cursor: pointer;
+  color: black;
 }
 
 
@@ -868,44 +871,50 @@ Registration
   width: 100%;
   background-color: #6415ff;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center ;
+  justify-content:center ;
 }
 
 .registration__wrapper{
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
+  margin: 2rem;
 
 }
 
 .registration__text{
-  margin-left: 8rem;
+  margin-left: rem;
   text-align: left;
   max-width: 25rem;
   font-size: 1.7rem;
   font-weight: bold;
   color: white;
+  text-align: left;
 
 }
 
 .two__buttons{
-  margin: 1rem 4rem ;
+  margin: 1rem 0rem 1rem 0rem ;
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .get__started{
   font-size: 1rem;
   font-weight: bold;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0rem 3rem;
-  padding: 1.5rem 4rem;
+  padding: 1rem 4rem;
   border-radius: 9999rem;
   border: none;
   background-color: #F56565;
   color: #EDF2F7;
   cursor: pointer;
+  width: 11rem;
 }
 
 .contact__us{
@@ -914,12 +923,13 @@ Registration
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 2.52rem;
+  padding: 1rem 2.52rem;
   border-radius: 9999rem;
   border: 1px solid #EDF2F7;
   color: #EDF2F7;
   background-color: #6415ff;
   cursor: pointer;
+  width: 11rem;
 }
 
 .get__started:hover{
@@ -1042,6 +1052,7 @@ footer
   border: none;
   margin: 0.4rem;
   cursor: pointer;
+  color: black;
 }
 
 .facebook{
@@ -1112,6 +1123,38 @@ keyframes
 
   */
 
-  @media(max-width:1350px) {
- 
+  @media(max-width:1200px) {
+    .header__img__wrapper{
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .header__img{
+      width:100%;
+      max-width: 32rem;
+    }
+ .heade__text{
+  width:40%;
+ }
+ .header__wrapper{
+  margin-top: 2rem;
+ }
+ .partners{
+  margin-top: 5rem;
+ }
+ .text__para{
+  font-size:1.1rem; 
+ }
+ .secure__para{
+  font-size: 1rem;
+ }
+ .values__img__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .card{
+  max-width: 18rem;
+ }
+
   }
