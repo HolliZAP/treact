@@ -822,7 +822,7 @@ animation: slide-in-left 800ms;
 
 .dropdown{
   height: 4rem;
-  width: 80%;
+  width: 100%;
   background-color: #EDF2F7;
   margin: 0.5rem;
   border-radius: 1rem;
@@ -958,7 +958,9 @@ footer
   height: 30rem;
 }
 .footer__wrapper{
-  margin: 0rem 9rem;
+  margin: auto;
+  max-width: 90rem;
+  padding: 0rem 3rem;
 }
 
 .links__wrapper{
@@ -1157,4 +1159,82 @@ keyframes
   max-width: 18rem;
  }
 
+  }
+
+  @media(max-width:1024px){
+    .header__wrapper{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .header__text{
+      width: 100%;
+      max-width: 32rem;
+      display: flex;
+      align-items: center;justify-content: center;
+    }
+    .text,
+    .text__left{
+      font-size: 1.8rem;
+    }
+    .text__para{
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .partners{
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+    .header__para__mid,
+    .header__para{
+      font-size: 1.2rem;
+    }
+    .secure{
+      width: 50%;
+    }
+    .secure__para{
+      font-weight: 500;
+    }
+    .text__steps__para{
+      font-weight: 500;
+    }
+    .two__text__divided{
+      flex-direction: column;
+    }
+    .affordable__para,
+    .professionalism__para{
+      font-size: 1.3rem;
+    }
+    .briefcase,
+    .dollarsign{
+      font-size: 1.3rem;
+      width: 2.3rem;
+      height: 2.3rem;
+    }
+    .professionalism__text{
+      font-weight:500;
+    }
+    .cards__wrapper{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      margin: 2rem;
+    }
+    .feedback__text__para{
+      font-weight: 500;
+    }
+    .registration__wrapper{
+      flex-direction: column;
+      text-align: center;
+    }
+    .registration__text{
+      text-align: center;
+      flex-wrap: wrap;
+    }
+    .get__started{
+      margin-left: 0;
+    }
   }
