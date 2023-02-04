@@ -22,6 +22,7 @@ body{
   text-align: center;
   padding: 4rem;
   width: 100%;
+  position: relative;
 }
 .row {
   width: 100%;
@@ -55,6 +56,91 @@ p {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+.bubble__header{
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  z-index: -10;
+  opacity: 0.05;
+  transform: translateX(-55%);
+  left: 0;
+  bottom: 0;
+}
+.bubble__features{
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  z-index: -10;
+  opacity: 0.25;
+  transform: translateX(50%);
+  right: 0% ;
+  bottom: -70%;
+}
+.bubble__pricing{
+  position:absolute;
+  width: 16rem;
+  height: 16rem;
+  z-index: -20;
+  transform: translateX(-55%);
+  left: 0;
+  bottom: -25%;
+  opacity: 0.25;
+}
+.bubble__faqs__one{
+  color: rgb(79 209 197);
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  right: 0;
+  top: 0;
+  transform: translateX(55%);
+  opacity: 0.15;
+}
+.bubble__faqs__two{
+  color: rgb(100 21 255);
+  position: absolute;
+  width: 16rem;
+  height: 16rem;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-55%);
+  opacity: 0.15;
+}
+.bubble__registration__one{
+color: rgb(80 17 204);
+position: absolute;
+width: 20rem;
+height: 20rem;
+top: 0;
+right: 0;
+transform: translate(20%, -83%);
+opacity: 0.5;
+}
+.bubble__registration__two{
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  bottom: 0;
+  left: 0;
+  transform: translate(-40%, 40%);
+  opacity: 0.5;
+  --tw-text-opacity: 1;
+    color: rgb(80 17 204 / var(--tw-text-opacity));
+    z-index: 1;
+}
+.bubble__footer{
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  top: 0;
+  left: 0;
+  transform: translate(-40%, -40%);
+  opacity: 0.5;
+  --tw-text-opacity: 1;
+    color: rgb(80 17 204 / var(--tw-text-opacity));
+    z-index: 1;
+}
+
 /*
 
 NAV
@@ -360,6 +446,7 @@ Features
   margin: 1.2rem;
 }
 
+
 .features__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -443,10 +530,24 @@ quality Work
 .quality__work__img__wrapper {
   width: 700px;
   width: 50%;
+  position: relative;
 }
 
 .quality__work__img {
   width: 100%;
+  z-index: 2;
+  position: relative;
+}
+.quality__work__dots{
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  fill: currentColor;
+  color: #6415ff;
+  transform: translate(49%, 47%);
 }
 
 /*
@@ -497,10 +598,23 @@ Steps
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .steps__img {
   width: 100%;
+  position: relative;
+  z-index:2 ;
+}
+.steps__dots{
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  fill: currentColor;
+  color:#6415ff ;
+  z-index: 1;
+  transform: translateY(14.3rem);
+  opacity: 0.3;
 }
 /*
 
@@ -608,6 +722,7 @@ Pricing
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .card {
@@ -617,6 +732,8 @@ Pricing
   max-width: 20rem;
   border-radius: 0.5rem;
   position: relative;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .price {
@@ -943,6 +1060,14 @@ Registration
   display: flex;
   align-items:center ;
   justify-content:center ;
+  position: relative;
+}
+.registration__bubble__wrapper{
+  border-radius: 1rem;
+  height: 17.625rem;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
 }
 
 .registration__wrapper{
@@ -954,13 +1079,13 @@ Registration
 }
 
 .registration__text{
-  margin-left: rem;
   text-align: left;
   max-width: 25rem;
   font-size: 1.7rem;
   font-weight: bold;
   color: white;
   text-align: left;
+  z-index: 2;
 
 }
 
@@ -982,6 +1107,7 @@ Registration
   border-radius: 9999rem;
   border: none;
   background-color: #F56565;
+z-index: 2;
   color: #EDF2F7;
   cursor: pointer;
   width: 11rem;
@@ -1000,6 +1126,8 @@ Registration
   background-color: #6415ff;
   cursor: pointer;
   width: 11rem;
+  z-index: 2;
+  
 }
 
 .get__started:hover{
@@ -1038,6 +1166,7 @@ footer
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 2;
 }
 
 
@@ -1050,6 +1179,7 @@ footer
 
 .footer__links{
   margin: 0rem 1rem;
+  z-index: 2;
 }
 
 .link{
